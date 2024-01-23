@@ -15,12 +15,14 @@
             crossorigin="anonymous"
         ></script>
         <link rel="stylesheet" href="/src/styles.css" />
-        <title>About</title>
+        <title>Front-End Developer - Emily Ingraham - About</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Emily Ingraham</a>
+                <a class="navbar-brand" href="/" title="Homepage"
+                    >Emily Ingraham</a
+                >
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -38,17 +40,24 @@
                             <a
                                 class="nav-link"
                                 aria-current="page"
-                                href="index.html"
+                                href="/"
+                                title="Homepage"
                                 >Home</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="about.html"
+                            <a
+                                class="nav-link active"
+                                href="/about.html"
+                                title="About Emily"
                                 >About Me</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html#contact"
+                            <a
+                                class="nav-link"
+                                href="/about.html#contact"
+                                title="Contact Emily"
                                 >Contact me</a
                             >
                         </li>
@@ -57,9 +66,11 @@
             </div>
         </nav>
 
-        <h1 class="mt-5">About me</h1>
-        <h3>Front-end developer from Colorado, United States</h3>
-        <p class="bg-white m-2">
+        <h1 class="about-me-heading-padding header-media-class">About me</h1>
+        <h3 class="sub-sub-header-media-class">
+            Front-end developer from Colorado, United States
+        </h3>
+        <p class="bg-white m-2 p-media-class">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fugiat
             nostrum quia aspernatur nihil officia at ipsa rem quam impedit
             laudantium iure ex laboriosam, libero, voluptatum magni unde animi
@@ -96,10 +107,16 @@
         </div>
 
         <div class="m-5" id="contact">
-            <h2>📮 Contact me</h2>
-            <a href="mailto:emilyvingraham@gmail.com" class="email-link">
-                emilyvingraham@gmail.com
-            </a>
+            <h2 class="sub-header-media-class">📮 Contact me</h2>
+            <div class="sub-header-media-class">
+                <a
+                    href="mailto:emilyvingraham@gmail.com"
+                    class="email-link"
+                    title="Contact Emily"
+                >
+                    emilyvingraham@gmail.com
+                </a>
+            </div>
         </div>
     </body>
 </html>

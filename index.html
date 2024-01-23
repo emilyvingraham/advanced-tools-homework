@@ -15,12 +15,14 @@
             crossorigin="anonymous"
         ></script>
         <link rel="stylesheet" href="/src/styles.css" />
-        <title>Document</title>
+        <title>Front-End Developer - Emily Ingraham - Homepage</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Emily Ingraham</a>
+                <a class="navbar-brand" href="/" title="Homepage"
+                    >Emily Ingraham</a
+                >
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -38,15 +40,24 @@
                             <a
                                 class="nav-link active"
                                 aria-current="page"
-                                href="index.html"
+                                href="/"
+                                title="Homepage"
                                 >Home</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Me</a>
+                            <a
+                                class="nav-link"
+                                href="/about.html"
+                                title="About Emily"
+                                >About Me</a
+                            >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html#contact"
+                            <a
+                                class="nav-link"
+                                href="/about.html#contact"
+                                title="Contact Emily"
                                 >Contact me</a
                             >
                         </li>
@@ -55,11 +66,11 @@
             </div>
         </nav>
         <div class="container pt-5">
-            <h2 class="pt-4">👋 Hi I am</h2>
-            <h1 class="mb-2">Emily Ingraham</h1>
+            <h2 class="pt-4 sub-header-media-class">👋 Hi I am</h2>
+            <h1 class="mb-2 header-media-class">Emily Ingraham</h1>
         </div>
         <span>
-            <h3>
+            <h3 class="sub-sub-header-media-class">
                 <img
                     src="https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/share/1f1fa-1f1f8.jpg"
                     alt="american-flag"
@@ -68,39 +79,48 @@
             </h3>
         </span>
         <div class="navigation-links mt-3 mb-5">
-            <a href="about.html#contact" class="contact-link py-4 fs-6 rounded"
+            <a
+                href="about.html#contact"
+                class="contact-link py-4 fs-6 rounded"
+                title="Contact Emily"
                 >Contact me</a
             >
-            <a href="about.html" class="about-link py-4 fs-6 rounded"
+            <a
+                href="about.html"
+                class="about-link py-4 fs-6 rounded"
+                title="About Emily"
                 >About me</a
             >
         </div>
         <!--FIRST ROW-->
 
         <div class="row mb-5">
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <img
                     src="images/yoga.png"
                     alt="yoga-app-icon"
-                    class="img-fluid rounded"
+                    class="img-fluid rounded img-media-class"
                 />
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <div class="card border border-0">
-                    <div class="card-body pt-0">
-                        <h2 class="card-title text-start">Yoga App</h2>
-                        <p class="card-text bg-white text-start ps-0 pt-0">
+                    <div class="card-body">
+                        <h2 class="card-title heading-media-class">Yoga App</h2>
+                        <p class="card-text bg-white ps-0 p-media-class">
                             Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Eos, architecto praesentium dolorem itaque
                             commodi accusantium voluptas quis ad atque corporis
                             sunt. Tenetur asperiores consequuntur odio sunt unde
                             consectetur amet dolore!
                         </p>
-                        <a
-                            href="#"
-                            class="contact-link p-3 fs-6 shadow rounded text-decoration-none"
-                            >Launch Yoga App</a
-                        >
+                        <div class="btn-media-class text-center">
+                            <a
+                                href="#"
+                                class="contact-link p-3 fs-6 shadow rounded text-decoration-none"
+                                title="Launch Yoga App"
+                                >Launch Yoga App</a
+                            >
+                        </div>
                     </div>
                 </div>
             </div>
@@ -108,65 +128,75 @@
 
         <!--SECOND ROW-->
 
-        <div class="row">
+        <div class="row mb-5">
             <!--card element-->
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <div class="card border border-0">
-                    <div class="card-body pt-0">
-                        <h2 class="card-title text-start">Weather App</h2>
-                        <p class="card-text bg-white text-start ps-0">
+                    <div class="card-body">
+                        <h2 class="card-title heading-media-class">
+                            Weather App
+                        </h2>
+                        <p class="card-text bg-white ps-0 p-media-class">
                             Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Eos, architecto praesentium dolorem itaque
                             commodi accusantium voluptas quis ad atque corporis
                             sunt. Tenetur asperiores consequuntur odio sunt unde
                             consectetur amet dolore!
                         </p>
-                        <a
-                            href="#"
-                            class="contact-link p-3 fs-6 shadow rounded text-decoration-none"
-                            >Launch Weather App</a
-                        >
+                        <div class="btn-media-class text-center">
+                            <a
+                                href="#"
+                                class="contact-link p-3 fs-6 shadow rounded text-decoration-none"
+                                title="Launch Weather App"
+                                >Launch Weather App</a
+                            >
+                        </div>
                     </div>
                 </div>
             </div>
             <!--image icon-->
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <img
                     src="images/weather.png"
                     alt="weather-app-icon"
-                    class="img-fluid rounded"
+                    class="img-fluid rounded img-media-class"
                 />
             </div>
         </div>
 
         <!--THIRD ROW-->
 
-        <div class="row">
+        <div class="row mb-5">
             <!--image icon-->
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <img
                     src="images/yogurt.png"
                     alt="weather-app-icon"
-                    class="img-fluid rounded"
+                    class="img-fluid rounded img-media-class"
                 />
             </div>
             <!--card element-->
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <div class="card border border-0">
-                    <div class="card-body pt-0">
-                        <h2 class="card-title text-start">Yogurt App</h2>
-                        <p class="card-text bg-white text-start ps-0">
+                    <div class="card-body">
+                        <h2 class="card-title heading-media-class">
+                            Yogurt App
+                        </h2>
+                        <p class="card-text bg-white ps-0 p-media-class">
                             Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Eos, architecto praesentium dolorem itaque
                             commodi accusantium voluptas quis ad atque corporis
                             sunt. Tenetur asperiores consequuntur odio sunt unde
                             consectetur amet dolore!
                         </p>
-                        <a
-                            href="#"
-                            class="contact-link p-3 fs-6 shadow rounded text-decoration-none"
-                            >Launch Yogurt App</a
-                        >
+                        <div class="btn-media-class text-center">
+                            <a
+                                href="#"
+                                class="contact-link p-3 fs-6 shadow rounded text-decoration-none"
+                                title="Launch Yogurt App"
+                                >Launch Yogurt App</a
+                            >
+                        </div>
                     </div>
                 </div>
             </div>
