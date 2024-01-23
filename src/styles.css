@@ -8,6 +8,9 @@
     .img-media-class {
         display: none;
     }
+    .about-img-media-class {
+        margin-bottom: 30px;
+    }
     .heading-media-class {
         text-align: center;
         font-size: 38px;
@@ -28,6 +31,12 @@
     .p-media-class {
         font-size: 16px;
     }
+    .email-link-media-class {
+        font-size: 16px;
+    }
+    .contact-header-media-class {
+        font-size: 26px;
+    }
 }
 
 .about-me-heading-padding {
@@ -37,8 +46,8 @@
 
 body {
     margin-bottom: 60px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
     margin-top: 10px;
 }
 
@@ -114,7 +123,6 @@ p {
     display: flex;
     justify-content: center;
     color: var(--primary-color);
-    font-size: 24px;
     text-decoration: none;
 }
 
