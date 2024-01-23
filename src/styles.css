@@ -45,10 +45,10 @@
 }
 
 body {
-    margin-bottom: 60px;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
 }
 
 h1,
@@ -102,6 +102,7 @@ p {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
+    text-align: center;
 }
 
 .contact-link:hover {
@@ -111,6 +112,7 @@ p {
 .about-link {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+    text-align: center;
 }
 
 .homepage-link {
